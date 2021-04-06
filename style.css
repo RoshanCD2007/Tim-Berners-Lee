@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 .Profile{
     width: 200px;
@@ -62,7 +63,7 @@ p{
 .menu{
     list-style: none;
     font-family: fantasy;
-    position: absolute;
+    position: fixed;
     right: 30px;
     top: 10px;
     z-index: 10;
@@ -72,4 +73,17 @@ p{
     font-size: 25px;
     line-height: 1.2;
     font-family: 'Playfair Display', serif;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+.article:hover{
+    color: blueviolet;
+}
+a{
+    text-decoration: none;
+}
+.article{
+    font-size: 25px;
 }
